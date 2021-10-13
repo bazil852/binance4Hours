@@ -1,0 +1,9 @@
+python-binance
+kaleido
+pillow
+cufflinks
+python-telegram
+pandas
+matplotlib
+plotly
+mplfinance
