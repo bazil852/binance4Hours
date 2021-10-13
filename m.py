@@ -36,8 +36,8 @@ PHOTO_PATH2 = 'Result2.png'
 PHOTO_PATH3 = 'Result3.png'
 
 
-binance_api_key = '7wLSiwoaXXU57j5fhWLNA6dbGTlvqommHrmPm36xhwyfSo2wFYBYztJqx6aR9hmB'
-binance_api_secret = 'srjlGJtOB4z8pzrZudJmhvjRxBaLdtK30Ou1CHOG0S0XpFHYKuCznZXp9CXLcdbn'
+binance_api_key = ''
+binance_api_secret = ''
 
 binsizes = { "4h": 60}
 batch_size = 4
@@ -321,3 +321,5 @@ bot.sendDocument(chat_id=TELEGRAM_CHAT_ID, document=open(PHOTO_PATH3, 'rb'))
 
 
 print("--- %s seconds ---" % (time.time() - start_time))
+
+time.sleep(14400)
